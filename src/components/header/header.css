@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.currntinfo{
+    margin-top: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+#balance{
+    color: skyblue;
+    font: italic;
+    /* display: none; */
+}

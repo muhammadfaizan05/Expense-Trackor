@@ -1,0 +1,45 @@
+.description{
+   text-align: left;
+}
+.mainhistory{
+    width: 30%;
+    margin: auto;
+}
+table{
+    width: 100%;
+    margin: auto;
+}
+
+.mousein{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.tablereow{
+   
+    font-size: large;
+}
+.icon{
+    width: 20%;
+    cursor: pointer;
+}
+.icon img{
+    width: 40%;
+    background-color: transparent;
+}
+@media only screen and (max-width: 660px) and (min-width: 250px)  {
+    *{
+        font-size: small;
+    }
+    .tablereow{
+        font-size: large;
+    }
+    table tr{
+        width: 60%;
+    }
+    .mainhistory{
+        width: 50%;
+    }
+}

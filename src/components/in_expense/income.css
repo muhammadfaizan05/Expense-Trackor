@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    margin: auto;
+    border: 2px transparent;
+    padding: 20px 30px 20px 30px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    box-shadow: 2px 1px 5px black;
+}
+
+#income span {
+    text-transform: uppercase;
+}
+
+#expense span {
+    text-transform: uppercase;
+}
+
+#incomeamount {
+    color: #b6960a;
+    font-size: larger;
+}
+
+#expenseamount {
+    color: #2da3ad;
+    font-size: larger;
+}
+@media only screen and (max-width: 660px) and (min-width: 250px)  {
+
+    h3{
+        font-size: small;
+        font-weight: 200;
+    }
+    #container{
+        width: 35%;
+    }
+}

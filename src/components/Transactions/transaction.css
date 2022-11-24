@@ -1,0 +1,36 @@
+
+
+#transactionsdiv{
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+}
+.form{
+    text-align: center;
+    margin-top: 2%;
+}
+#submitbutton{
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    font-size: large;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+p{
+    color: red;
+}
+@media only screen and (max-width: 660px) and (min-width: 250px)  {
+    input{
+        width: 100%;
+    }
+    #transactionsdiv{
+        width: 50%;
+    }
+}
